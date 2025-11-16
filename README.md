@@ -1,20 +1,44 @@
-# Data-analytics-Daily-task
+Objective:
+Clean and prepare a raw dataset containing customer demographic and spending information.
 
-This repository contains my data analyst practice projects using python
-Dataset: Mall Customer Dataset (from Kaggle)
-Objective: Clean and preprocess data for analysis
-Steps performed:
-Loaded the dataset into a Pandas DataFrame.
-Verified column names and dataset structure using head().
-Checked for missing values using isnull().sum() — no missing values found.
-Checked for duplicate rows — no duplicates found.
-Cleaned the column names by:
-converting to lowercase
-replacing spaces with _
-removing special characters
-Standardized the Gender column by converting it to lowercase and removing spaces.
-Generated statistical summary using describe() to understand data distribution.
-Performed outlier detection on Age, Annual Income, and Spending Score — no outliers found.
-Exported the final cleaned dataset as Mall_Customers_Cleaned.csv.
+Tools Used:
+
+Python (Pandas)
+
+Jupyter Notebook
+
+Output:
+
+Cleaned dataset → Mall_Customers_Cleaned.csv
+
+Summary of Cleaning Steps (Mall Customer Dataset)
+
+Loaded the raw Mall Customers dataset from Kaggle.
+
+Checked for missing values and found none.
+
+Checked for duplicate rows and found none.
+
+Cleaned column names:
+
+Converted to lowercase
+
+Replaced spaces with _
+
+Removed special characters
+
+Standardized Gender column:
+
+Stripped extra spaces
+
+Converted to lowercase (male, female)
+
+Converted data types to appropriate formats.
+
+Performed statistical summary using df.describe().
+
+Checked for outliers in Age, Income, and Spending Score — none found.
+
+Exported cleaned dataset as Mall_Customers_Cleaned.csv.
 
 
