@@ -1,4 +1,5 @@
 # Data-analytics-Daily-task
+
 This repository contains my data analyst practice projects using python
 Dataset: Mall Customer Dataset (from Kaggle)
 Objective: Clean and preprocess data for analysis
@@ -15,3 +16,5 @@ Standardized the Gender column by converting it to lowercase and removing spaces
 Generated statistical summary using describe() to understand data distribution.
 Performed outlier detection on Age, Annual Income, and Spending Score — no outliers found.
 Exported the final cleaned dataset as Mall_Customers_Cleaned.csv.
+
+
